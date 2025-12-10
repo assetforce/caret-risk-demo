@@ -1,0 +1,7 @@
+{
+  "name": "@demo/eslint-config-fixed",
+  "version": "1.0.0",
+  "description": "Simulating @assetforce/eslint-config with FIXED versions (control group, not used in scenarios)",
+  "main": "index.js",
+  "dependencies": {}
+}

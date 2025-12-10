@@ -1,0 +1,6 @@
+{
+  "name": "@demo/shared-dep",
+  "version": "10.1.0",
+  "description": "Simulating eslint-config-prettier v10.1.0",
+  "main": "v10.1.0/index.js"
+}

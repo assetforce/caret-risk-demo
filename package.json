@@ -1,0 +1,24 @@
+{
+  "name": "caret-risk-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated demonstration of caret version risks in library dependencies",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "test:all": "bash scripts/run-all-scenarios.sh",
+    "test:scenario-0": "bash scripts/scenario-0.sh",
+    "test:scenario-1": "bash scripts/scenario-1.sh",
+    "test:scenario-2": "bash scripts/scenario-2.sh",
+    "test:scenario-3": "bash scripts/scenario-3.sh",
+    "test:scenario-4": "bash scripts/scenario-4.sh",
+    "test:scenario-5": "bash scripts/scenario-5.sh",
+    "test:scenario-6": "bash scripts/scenario-6.sh",
+    "test:scenario-7": "bash scripts/scenario-7.sh",
+    "test:scenario-8": "bash scripts/scenario-8.sh",
+    "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules **/yarn.lock **/package-lock.json",
+    "setup": "yarn install"
+  }
+}

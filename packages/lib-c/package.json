@@ -1,0 +1,9 @@
+{
+  "name": "@demo/lib-c",
+  "version": "1.0.0",
+  "description": "Library C - depends on shared-dep with caret",
+  "main": "index.js",
+  "dependencies": {
+    "@demo/shared-dep": "^10.1.0"
+  }
+}

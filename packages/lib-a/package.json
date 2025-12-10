@@ -1,0 +1,9 @@
+{
+  "name": "@demo/lib-a",
+  "version": "1.0.0",
+  "description": "Library A - depends on lib-b with caret",
+  "main": "index.js",
+  "dependencies": {
+    "@demo/lib-b": "^1.0.0"
+  }
+}

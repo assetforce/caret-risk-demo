@@ -1,0 +1,9 @@
+{
+  "name": "@demo/eslint-config",
+  "version": "10.1.0",
+  "description": "Simulating @assetforce/eslint-config with CARET versions (^)",
+  "main": "index.js",
+  "dependencies": {
+    "@demo/shared-dep": "^10.1.0"
+  }
+}
